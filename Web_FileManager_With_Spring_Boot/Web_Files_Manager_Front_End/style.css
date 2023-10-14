@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-family: sans-serif;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.mainDiv {
+    display: flex;
+}
+
+.oneSubDiv {
+    width: 40vw;
+    position: relative;
+}
+
+.twoSubDiv {
+    width: 60vw;
+}
+
+.imgViewer {
+    height: 300px;
+    width: 380px;
+    position: relative;
+    margin: 50px auto auto auto;
+    background-color: aliceblue;
+}
+
+.btnGroup {
+    margin: 50px 220px 0 220px;
+}
+
+.btnClass {
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    background-color: azure;
+    box-shadow: 1px 1px 50px -20px black;
+    cursor: pointer;
+    margin: auto 6px auto 6px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid cadetblue;
+}
+
+th {
+    background-color: aliceblue;
+}
+
+tr:hover {
+    background-color: azure;
+}

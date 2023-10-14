@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/../File_Manager_Back_End/pom.xml" />
         <option value="$PROJECT_DIR$/Web_File_Manager_Back_End/pom.xml" />
+        <option value="$PROJECT_DIR$/Web_Files_Manager_Back_End/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
