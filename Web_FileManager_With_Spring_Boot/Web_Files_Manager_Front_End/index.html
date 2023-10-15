@@ -9,11 +9,13 @@
 <h2>Web Files Uploading With Spring_Boot</h2>
 <div class="mainDiv">
     <div class="oneSubDiv">
-        <div class="imgViewer"></div>
+        <input type="file" id="fileInput" style="display:none;">
+
+        <div class="imgViewer" id="imageContent"></div>
 
         <div class="btnGroup">
-            <button class="btnClass">Upload</button>
-            <button class="btnClass">File Browser</button>
+            <button class="btnClass" id="btnUpload">Upload</button>
+            <button class="btnClass" onclick="openFileBrowser()">File Browser</button>
             <button class="btnClass">File Name</button>
         </div>
     </div>
@@ -29,14 +31,12 @@
             </thead>
 
             <tbody id="tblFiles">
-            <tr>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-            </tr>
+
             </tbody>
         </table>
     </div>
 </div>
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script src="js.js"></script>
 </body>
 </html>
